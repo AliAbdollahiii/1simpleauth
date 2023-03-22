@@ -12,6 +12,9 @@ The application has three main routes:
 
 # Build & run
 Open a terminal window and navigate to the directory containing the Dockerfile and requirements.txt file.
+
 Run the command docker build -t my-flask-app . to build the Docker image. The -t option tags the image with the name my-flask-app.
+
 Run the command docker run -p 5000:5000 my-flask-app to start the container and expose port 5000 for the Flask app.
+
 Access the app in your web browser at http://localhost:5000/.
